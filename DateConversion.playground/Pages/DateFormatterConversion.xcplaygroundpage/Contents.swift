@@ -13,7 +13,7 @@ print(date!)  // Prints:  2018-12-10 06:00:00 +0000
 
 
 //we're in the India:
-formatter.locale = Locale(identifier: "en_IN") // Spanish from Spain
+formatter.locale = Locale(identifier: "en_IN") // India
 formatter.dateStyle = .long //dateStyle and timeStyle
 formatter.string(from: date!) // returns "10 de diciembre, 2020"
 
